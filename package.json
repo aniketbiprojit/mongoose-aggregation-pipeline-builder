@@ -1,15 +1,22 @@
 {
 	"name": "mongoose-aggregation-pipeline-builder",
-	"version": "0.1.0-beta",
+	"version": "0.1.1-beta",
 	"description": "",
 	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"keywords": [],
+	"keywords": [
+		"mongoose",
+		"aggregation",
+		"pipeline",
+		"builder",
+		"typescript"
+	],
 	"author": "",
 	"license": "ISC",
-	"dependencies": {
+	"peerDependencies": {
 		"typescript": "^4.3.5",
 		"@types/node": "^16.0.0",
 		"mongoose": "^6.9.1"
