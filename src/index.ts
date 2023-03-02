@@ -9,6 +9,20 @@ export class PipelineStageBuilder {
 		return this._aggregateArr
 	}
 
+	static fromArray(arr: PipelineStage[]) {
+		let builder = `new PipelineStageBuilder()`
+		arr.forEach((obj) => {
+			const totalKeys = Object.keys(obj)
+			if (totalKeys.length !== 1) {
+				throw new Error('Invalid aggregation pipeline')
+			}
+			const o = Object.keys(obj)[0] as keyof typeof obj
+
+			builder += `\n.${o}(${JSON.stringify(obj[o])})`
+		})
+		return builder
+	}
+
 	/// aggregators
 	$addFields(args: PipelineType['$addFields']) {
 		this._aggregateArr.push({ $addFields: args })
