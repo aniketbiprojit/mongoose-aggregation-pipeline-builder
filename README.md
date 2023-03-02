@@ -1,4 +1,5 @@
-## PipelineStageBuilder - A fluent builder for MongoDB aggregation pipeline stages
+## PipelineStageBuilder 
+A fluent builder for MongoDB aggregation pipeline stages
 
 ```ts
 new PipelineStageBuilder()
