@@ -25,6 +25,8 @@
     "mongoose": "^7.1.1"
   },
   "engines": {
-    "npm": ">=9.5.0"
+    "npm": ">=9.5.0",
+    "yarn": "use-npm",
+    "pnpm": "use-npm"
   }
 }
