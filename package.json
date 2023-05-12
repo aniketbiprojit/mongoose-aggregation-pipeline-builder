@@ -38,5 +38,8 @@
     "npm": ">=9.5.0",
     "yarn": "use-npm",
     "pnpm": "use-npm"
+  },
+  "bugs": {
+    "url": "https://github.com/aniketbiprojit/mongoose-aggregation-pipeline-builder/issues/new"
   }
 }
