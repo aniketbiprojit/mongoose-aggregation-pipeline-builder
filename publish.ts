@@ -1,8 +1,10 @@
 import { execSync, spawnSync } from "child_process";
 
 const main = async () => {
-  execSync("npm version patch");
-  execSync("npm version build");
+  const data = execSync("npm version prepatch --preid alpha");
+  console.log(data.toString());
+  await import("./build");
+  execSync("npm run build");
 
   const output = spawnSync("./runner.sh")?.stdout?.toString();
 
