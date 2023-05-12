@@ -1,7 +1,18 @@
 {
   "name": "mongoose-aggregation-pipeline-builder",
   "version": "0.2.0",
-  "description": "",
+  "author": {
+    "name": "Aniket Biprojit Chowdhury",
+    "email": "aniket_chowdhury@hotmail.com",
+    "url": "https://aniketbiprojit.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aniketbiprojit/mongoose-aggregation-pipeline-builder"
+  },
+  "man": "README.md",
+  "description": "A fluent builder for MongoDB aggregation pipeline stages.",
+  "homepage": "https://github.com/aniketbiprojit/mongoose-aggregation-pipeline-builder/tree/master#readme",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -14,7 +25,6 @@
     "builder",
     "typescript"
   ],
-  "author": "",
   "license": "ISC",
   "peerDependencies": {
     "@types/node": "^16.0.0",
