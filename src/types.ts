@@ -13,9 +13,9 @@ export type PipelineType = {
 
   $densify: PipelineStage.Densify["$densify"];
 
-  $fill: PipelineStage.Fill["$fill"];
-
   $facet: PipelineStage.Facet["$facet"];
+
+  $fill: PipelineStage.Fill["$fill"];
 
   $geoNear: PipelineStage.GeoNear["$geoNear"];
 
