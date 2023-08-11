@@ -5,7 +5,14 @@ export class PipelineStageBuilder {
   private _aggregateArr: PipelineStage[] = [];
   constructor() {}
 
+  /**
+   * @deprecated Use `build` instead
+   */
   toArray() {
+    return this._aggregateArr;
+  }
+
+  build() {
     return this._aggregateArr;
   }
 

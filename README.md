@@ -10,7 +10,7 @@ new PipelineStageBuilder().$match({ _id: "_id" }).$project({ _id: 1 });
 const aggregation = new PipelineStageBuilder()
   .$match({ _id: "_id" })
   .$project({ _id: 1 })
-  .toArray();
+  .build();
 
 const result = await model.aggregate(aggregation);
 ```

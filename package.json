@@ -1,6 +1,6 @@
 {
   "name": "mongoose-aggregation-pipeline-builder",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "author": {
     "name": "Aniket Biprojit Chowdhury",
     "email": "aniket_chowdhury@hotmail.com",
@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "mongoose": "^7.4.2",
+    "mongoose-aggregation-pipeline-builder": "^0.2.4",
     "tsx": "^3.12.7",
     "typescript": "^5.0.4"
   },
