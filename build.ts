@@ -1,6 +1,4 @@
 import { readFileSync, writeFileSync } from "fs";
-import { PipelineType } from "./src/types";
-import { PipelineStage } from "mongoose";
 import { execSync } from "child_process";
 
 const file_path = "node_modules/mongoose/types/pipelinestage.d.ts";
